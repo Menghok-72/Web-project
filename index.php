@@ -1,3 +1,6 @@
 <?php
-    echo "Welcome to  wee Team";
+    echo "Welcome to  we Team";
+    echo "Let start us project";
+    echo "we can do it";
+
 ?>
