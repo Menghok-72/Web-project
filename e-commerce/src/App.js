@@ -1,26 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import { ArticleContainer } from './Article';
-
-function App() {
+import { ArticleContainer } from './Components/Article';
+import NavTop from './Components/Navbar';
+ function App() {
   return (
     <div className="App">
-      <ArticleContainer/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      
+    <NavTop/>
+    <ArticleContainer/>
+    <h1>Hello</h1>
     </div>
   );
 }
-
 export default App;
+
