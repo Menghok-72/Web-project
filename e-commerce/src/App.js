@@ -5,9 +5,8 @@ import NavTop from './Components/Navbar';
     <div className="App">
     <NavTop/>
     <ArticleContainer/>
-    <h1>Hello</h1>
+    <h1>hello</h1>
     </div>
   );
 }
 export default App;
-

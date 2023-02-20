@@ -13,8 +13,8 @@ import Card from 'react-bootstrap/Card';
 
 export function ArticleCard() {
   return (
-    <Card bg="primary" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card  style={{ width: '18rem', margin:'10px' }}>
+      <Card.Img variant="top" src="https://api.lorem.space/image?w=640&h=480&r=7709" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
