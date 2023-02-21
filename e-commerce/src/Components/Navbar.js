@@ -18,9 +18,9 @@ function NavTop() {
             >
             
             <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Product</Nav.Link>
+            <Nav.Link href="#action2">New Product</Nav.Link>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Product</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
               </NavDropdown.Item>

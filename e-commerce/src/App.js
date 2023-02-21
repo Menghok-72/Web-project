@@ -1,4 +1,4 @@
-
+import "./App.css";
 import { ArticleContainer } from './Components/Article';
 import NavTop from './Components/Navbar';
 import { Slide } from './Components/SlideShow';
@@ -8,8 +8,6 @@ import { Slide } from './Components/SlideShow';
     <NavTop/>
     <Slide/>
     <ArticleContainer/>
-    <h1>hello</h1>
-
     </div>
   );
 }
