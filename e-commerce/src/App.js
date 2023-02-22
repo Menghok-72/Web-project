@@ -9,6 +9,7 @@ import { Slide } from './Components/SlideShow';
     <Slide/>
     <ArticleContainer/>
     <h1>Hello11</h1>
+    <h2>Srey sart</h2>
     </div>
   );
 }
