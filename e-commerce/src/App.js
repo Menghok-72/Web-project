@@ -8,6 +8,7 @@ import { Slide } from './Components/SlideShow';
     <NavTop/>
     <Slide/>
     <ArticleContainer/>
+    <h1>Hello</h1>
     </div>
   );
 }
