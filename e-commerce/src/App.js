@@ -1,16 +1,18 @@
 import "./App.css";
 import { ArticleContainer } from './Components/Article';
 import NavTop from './Components/Navbar';
-import { Slide } from './Components/SlideShow';
- function App() {
+import Slide from './Components/slideshow';
+ export function App() {
   return (
     <div className="App">
-    <NavTop/>
-    <Slide/>
-    <ArticleContainer/>
-    <h1>Hello11</h1>
-    <h2>Srey sart</h2>
+      <NavTop/>
+
+      <Slide/>
+
+      <ArticleContainer/>
+
     </div>
   );
 }
-export default App;
+
+export default App
