@@ -17,8 +17,11 @@ function NavTop() {
             style={{ maxHeight: '100px' }}
             >
             
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">New Product</Nav.Link>
+            <Nav.Link  href="/" to="/">Home</Nav.Link>
+
+            <Nav.Link href="/blogs" to="/blogs">New Product</Nav.Link>
+            <Nav.Link href="/contact" to="/blogs">New Contact</Nav.Link>
+    
             <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Product</NavDropdown.Item>
               <NavDropdown.Item href="#action4">

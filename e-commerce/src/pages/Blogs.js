@@ -1,12 +1,12 @@
 import NavTop from "../Components/Navbar";
 
-const Contact = () => {
-    return(
+const Blogs = () => {
+    return (
       <div>
         <NavTop />
-        <h1>Contact Me</h1>
+        <h1>New Product here!</h1>
       </div>
     )
   };
   
-  export default Contact;
+  export default Blogs;
